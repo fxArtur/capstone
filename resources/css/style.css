@@ -1,6 +1,6 @@
 /* Universal */
 html {
-    font-family: Helvetica;
+  font-family: Helvetica;
   font-size: 16px;
 }
 
@@ -35,20 +35,20 @@ h3 {
 }
 
 /* Universal Component - Flex Content Container */
-.flex-content {
+.d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0 1.5rem;
 }
 
-.flex-content .main-content {
+.d-flex .main-content {
   width: 60%;
   padding: 2rem 1.5rem 2rem 0;
   border-right: 1px solid whitesmoke;
 }
 
-.flex-content .supporting-content {
+.d-flex .supporting-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,7 +264,7 @@ header .mobile {
 }
 
 @media only screen and (max-width: 895px) {
-  #information-section.flex-content {
+  #information-section.d-flex {
     padding: 0 1rem;
   }
   #information-section .main-content {
@@ -362,7 +362,7 @@ header .mobile {
   #thesis-section {
     padding-bottom: 1.5rem;
   }
-  #thesis-section .flex-content {
+  #thesis-section .d-flex {
     padding: 0;
   }
   #thesis-section .main-content {
